@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator - AZHAR</title>
+    <style>
+        
+        body {
+            background-color: #ffe6f2; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        
+        .calculator {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h2 {
+            color: #d63384;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: left;
+            color: #333;
+            font-size: 14px;
+        }
+
+        input, select {
+            width: 95%;
+            padding: 8px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+       
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px; 
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 120px;
+        }
+
+        .calculate-button {
+            background-color: #e178ac; 
+            color: white;
+        }
+
+        .calculate-button:hover {
+            background-color: #d96d9f;
+        }
+
+        .back-button {
+            background-color: #b46ba3; 
+            color: white;
+        }
+
+        .back-button:hover {
+            background-color: #9f5b8f;
+        }
+    </style>
+</head>
+<body>
+    <section class="calculator">
+        <h2>Calculate Your Daily Calories</h2>
+        
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+            
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            
+            <div class="button-container">
+                <button type="submit" class="calculate-button">Calculate</button>
+                <button type="button" class="back-button" onclick="window.location.href='pricing.html'">Back</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

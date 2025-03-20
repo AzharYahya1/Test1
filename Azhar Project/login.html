@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZHAR - Login</title>
+  <style>
+   
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #ffe6f2; 
+      font-family: Arial, sans-serif;
+      background-image: url('logo.png'); 
+      background-size: contain; 
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .login-section {
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+   
+    h2 {
+      color: #d63384;
+      margin-bottom: 15px;
+    }
+
+    
+    label {
+      display: block;
+      margin: 8px 0 4px;
+      text-align: left;
+      color: #444;
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      border: 2px solid #d63384;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    
+    button {
+      width: 40%;
+      padding: 12px;
+      background-color: #d63384;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #b02a6a;
+    }
+  </style>
+</head>
+<body>
+  <section class="login-section">
+    <h2>Login to AZHAR</h2>
+    <form action="pricing.html" method="POST">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+</body>
+</html>
+

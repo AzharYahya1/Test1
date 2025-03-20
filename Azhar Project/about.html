@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - AZHAR</title>
+  <style>
+    
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f2; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+    }
+
+   
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('logo.png') no-repeat center center;
+      background-size: contain; 
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    
+    header {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 40px 30px;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    
+    h1 {
+      margin: 0 0 30px;
+      color: #d63384; 
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+   
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #c6286a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+    <h1>About Us</h1>
+   
+    <p>
+      Welcome to AZHAR! We are dedicated to providing personalized nutrition solutions that help individuals achieve their health goals. Whether you are looking to maintain a balanced diet or need tailored meal plans to support specific health goals, our services are designed to meet your unique needs.
+    </p>
+    <p>
+      At AZHAR, we understand that nutrition plays a key role in maintaining overall well-being, and we aim to make healthy living easier and more accessible for everyone.
+    </p>
+    <a href="home.html" class="back-link">Back to Home</a>
+  </header>
+</body>
+</html>
